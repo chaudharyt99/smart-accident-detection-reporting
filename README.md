@@ -1,5 +1,5 @@
 # Smart Accident Reporting
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/htdocs/logo.png)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/htdocs/logo.png)
 
 # Overview 
 The objective of this project is to utilize deep learning and computer vision to identify accidents captured on dashcam footage and notify emergency services by providing them with relevant images of the incident.
@@ -28,7 +28,7 @@ densenet201  :  22.80   : 6.43
 
 densenet161  :  22.35   : 6.20
 
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/densenet1.png)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/densenet1.png)
 
 
 # Prerequisite 
@@ -59,11 +59,11 @@ Download anaconda from here https://www.anaconda.com/distribution/#download-sect
 
 ***1. Accident***
 
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/5.gif)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/5.gif)
 
 ***2. Non-accident***
 
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/6.gif)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/6.gif)
 
 
 # Train 
@@ -74,13 +74,13 @@ Download anaconda from here https://www.anaconda.com/distribution/#download-sect
 
 # Tensorboard visual 
 -   Traning set 
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/4.png)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/4.png)
 
 -   Validation set**
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/2.png)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/2.png)
 
 -   Number of corercts v/s epochs
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/3.png)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/3.png)
 
 
 # Test/Accuracy
@@ -97,6 +97,6 @@ Go to terminal and type
 
 # Result
 
-![alt text](https://raw.githubusercontent.com/chaudharyt99/accident-detection/master/assets/1.png)
+![alt text](https://raw.githubusercontent.com/chaudharyt99/smart-accident-detection-reporting/master/assets/1.png)
 
 The model achieved an 86.00% accuracy rate when tested on a random sample of the video sequences from our dataset, which made up 20% of the total. I plan to retrain the model once I have a good GPU and additional data.
